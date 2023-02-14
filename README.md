@@ -1,24 +1,46 @@
-# Algorithms
- A Curated list of Topic wise Theory and Questions to Get You Started On Competitive Coding.
- ## Topics
+# Data Structures And Algorithms
+----
+ ## Table of Contents
+ * [Data Structure](#data-structure)
  * [Array](#array)
  * [Linkedlist](#linkedlist)
  * [Stack](#stack) 
  * [Queue](#queue)
+-----
+## Data structure
+Data structure is a particular way of storing and
+organizing data in a computer so that it can be used efficiently.
 
+General data structure types include arrays, files, linked lists, stacks, queues, trees, graphs and so on.
+
+Depending on the organization of the elements, data structures are classified into two types:
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/20191010170332/Untitled-Diagram-183.png)
+* Linear data structures: Elements are accessed in a sequential order but it is not compulsory to store all elements sequentially. Examples: Linked Lists, Stacks and Queues.
+* Non – linear data structures: Elements of this data structure are accessed in a non-linear order. Examples: Trees and graphs.
+-----
 ## Array
+An array is a collection of items of same data type stored at contiguous memory locations.
 
-A Curated list of Topic wise Theory and Questions to Get You Started On Competitive Coding.
+The array elements can be accessed in constant time by using the index of the particular element as the
+subscript.
 
-## Linkedlist
+Remember: “Location of next index depends on the data type we use”. 
 
-A Curated list of Topic wise Theory and Questions to Get You Started On Competitive Coding.
+![](https://media.geeksforgeeks.org/wp-content/uploads/array-2.png)
 
-## Stack
+#### Why Constant Time for Accessing Array Elements?
 
-A Curated list of Topic wise Theory and Questions to Get You Started On Competitive Coding.
+To access an array element, First the size of an element of that data type is calculated and then it is multiplied with the index of the element to get the value to be
+added to the base address.
 
-## Queue
+This process takes one multiplication and one addition. Since these two operations take constant
+time, we can say the array access can be performed in constant time.
 
-A Curated list of Topic wise Theory and Questions to Get You Started On Competitive Coding.
+* [Important Questions asked in Interviews][def]
 
+
+
+
+
+[def]: https://github.com/alkamaazmi/Data-Structures-and-Algorithms/tree/main/Array
