@@ -55,7 +55,7 @@ It is basically chains of nodes, each node contains information such as data and
 * Circular Linked List
 * Doubly Circular Linked List
 
-### Singly Linked Lists
+### Singly Linked Lists([Implementation](https://github.com/alkamaazmi/Data-Structures-and-Algorithms/blob/main/Linked%20List/singlyLinkedList.cpp))
 
 Singly Linked Lists consists of a number of nodes in which each node stores the data and the address of the next node. The link of the last node in the list is
 NULL, which indicates the end of the list.
@@ -81,7 +81,7 @@ A doubly circular linked list is a linked list where each node points to its nex
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20220830114920/doubly-660x177.jpg)
 
 ---
-## Stack([Practice]())
+## Stack([Practice](https://github.com/alkamaazmi/Data-Structures-and-Algorithms/tree/main/Stack))
 
 Stack is a linear data structure in which insertion and deletion are done at one end, called
 top. The last element inserted is the first one to be deleted. It follows the principle of Last In First Out (LIFO) or First in Last out (FILO) list.
@@ -91,3 +91,8 @@ concept is called pop.Trying to pop out an empty stack is called underflow and t
 element in a full stack is called overflow.
 
 ![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221219100314/stack.drawio2.png)
+
+#### Implementation
+
+* [Simple array based implementation](https://github.com/alkamaazmi/Data-Structures-and-Algorithms/blob/main/Stack/stack-using-array.cpp)
+* [Linked lists implementation](https://github.com/alkamaazmi/Data-Structures-and-Algorithms/blob/main/Stack/stack-using-linkedlist.cpp)
