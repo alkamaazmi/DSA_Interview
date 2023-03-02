@@ -2,9 +2,9 @@
 ----
  ## Table of Contents
  * [Data Structure](#data-structure)
- * [Array](#array)
- * [Linkedlist](#linked-list)
- * [Stack](#stack)
+ * [Array](#arraypractice)
+ * [Linkedlist](#linked-listpractice)
+ * [Stack](#stackpractice)
 -----
 ## Data structure
 
