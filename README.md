@@ -37,7 +37,7 @@ added to the base address.
 This process takes one multiplication and one addition. Since these two operations take constant
 time, we can say the array access can be performed in constant time.
 
-* [Important Questions asked in Interviews][def]
+* [Important Questions asked in Interviews](https://github.com/alkamaazmi/Data-Structures-and-Algorithms/tree/main/Array)
 ----
 ## Linked List
 
@@ -82,4 +82,3 @@ A doubly circular linked list is a linked list where each node points to its nex
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20220830114920/doubly-660x177.jpg)
 
-[def]: https://github.com/alkamaazmi/Data-Structures-and-Algorithms/tree/main/Array
