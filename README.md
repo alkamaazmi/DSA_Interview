@@ -4,11 +4,11 @@
  * [Data Structure](#data-structure)
  * [Array](#array)
  * [Linkedlist](#linked-list)
+ * [Stack](#stack)
 -----
 ## Data structure
 
-Data structure is a particular way of storing and
-organizing data in a computer so that it can be used efficiently.
+Data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.
 
 General data structure types include arrays, files, linked lists, stacks, queues, trees, graphs and so on.
 
@@ -18,7 +18,7 @@ Depending on the organization of the elements, data structures are classified in
 * Linear data structures: Elements are accessed in a sequential order but it is not compulsory to store all elements sequentially. Examples: Linked Lists, Stacks and Queues.
 * Non – linear data structures: Elements of this data structure are accessed in a non-linear order. Examples: Trees and graphs.
 -----
-## Array
+## Array([Practice](https://github.com/alkamaazmi/Data-Structures-and-Algorithms/tree/main/Array))
 
 An array is a collection of items of same data type stored at contiguous memory locations.
 
@@ -31,15 +31,13 @@ Remember: “Location of next index depends on the data type we use”.
 
 #### Why Constant Time for Accessing Array Elements?
 
-To access an array element, First the size of an element of that data type is calculated and then it is multiplied with the index of the element to get the value to be
-added to the base address.
+To access an array element, First the size of an element of that data type is calculated and then it is multiplied with the index of the element to get the value to be added to the base address.
 
 This process takes one multiplication and one addition. Since these two operations take constant
 time, we can say the array access can be performed in constant time.
 
-* [Important Questions asked in Interviews](https://github.com/alkamaazmi/Data-Structures-and-Algorithms/tree/main/Array)
 ----
-## Linked List
+## Linked List([Practice](https://github.com/alkamaazmi/Data-Structures-and-Algorithms/tree/main/Linked%20List))
 
 A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers.They include a series of connected nodes. Here, each node stores the data and the address of the next node.
 
@@ -82,3 +80,14 @@ A doubly circular linked list is a linked list where each node points to its nex
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20220830114920/doubly-660x177.jpg)
 
+---
+## Stack([Practice]())
+
+Stack is a linear data structure in which insertion and deletion are done at one end, called
+top. The last element inserted is the first one to be deleted. It follows the principle of Last In First Out (LIFO) or First in Last out (FILO) list.
+
+When an element is inserted in a stack, the concept is called push, and when an element is removed from the stack, the
+concept is called pop.Trying to pop out an empty stack is called underflow and trying to push an
+element in a full stack is called overflow.
+
+![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221219100314/stack.drawio2.png)
